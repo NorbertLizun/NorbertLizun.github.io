@@ -1,8 +1,8 @@
 $(document).ready(function() {
   
    const apiRoot = 'http://localhost:8080/v1/task/';
-   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
-   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
+   const apiRoot = 'https://ancient-lowlands-51405.herokuapp.com/v1/task/';
+   const trelloApiRoot = 'https://ancient-lowlands-51405.herokuapp.com/v1/trello/';
    const $tasksContainer = $('[data-tasks-container]');
 
    var availableBoards = {};
